@@ -24,7 +24,8 @@ valid_vals_PREDEF_GRID_NAME: [
 "RRFS_NA_13km",
 "RRFS_NA_3km",
 "SUBCONUS_Ind_3km",
-"WoFS_3km"
+"WoFS_3km",
+"MUMIP_IO_3km"
 ]
 valid_vals_CCPP_PHYS_SUITE: [
 "FV3_GFS_v15p2",
