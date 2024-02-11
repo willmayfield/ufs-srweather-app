@@ -11,16 +11,16 @@ import numpy as np
 
 # Computational grid definitions
 ESGgrid_LON_CTR = 73.0
-ESGgrid_LAT_CTR = -15.0
+ESGgrid_LAT_CTR = -14.5
 ESGgrid_DELX = 3000.0
 ESGgrid_DELY = 3000.0
-ESGgrid_NX = 1651 
-ESGgrid_NY = 1510
+ESGgrid_NX = 1650 
+ESGgrid_NY = 1550
 
 # Write component grid definitions
 
-WRTCMP_nx = 1621
-WRTCMP_ny = 1480
+WRTCMP_nx = 1620
+WRTCMP_ny = 1520
 WRTCMP_lon_lwr_left = 50
 WRTCMP_lat_lwr_left = -35.8
 WRTCMP_dx = ESGgrid_DELX
@@ -109,6 +109,8 @@ verts1 = [
     (lbx1, lby1),  # ignored
 ]
 
+print("gnomonic_grid: ",verts1)
+
 codes2 = [
     Path.MOVETO,
     Path.LINETO,
@@ -192,6 +194,8 @@ def get_lambert_points(gnomonic_map, lambert_map, pps):
 # Call the function we just defined to generate a polygon roughly approximating the lambert "rectangle" in gnomonic space
 
 verts3, codes3 = get_lambert_points(map1, map3, 10)
+
+print("lambert grid: ",verts3)
 
 # Now draw!
 
