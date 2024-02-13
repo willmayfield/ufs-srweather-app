@@ -641,16 +641,16 @@
 "MUMIP_IO_3km":
   GRID_GEN_METHOD: "ESGgrid"
   ESGgrid_LON_CTR: 73.0
-  ESGgrid_LAT_CTR: -14.5
+  ESGgrid_LAT_CTR: -15.0
   ESGgrid_DELX: 3000.0
   ESGgrid_DELY: 3000.0
-  ESGgrid_NX: 1650
-  ESGgrid_NY: 1550
+  ESGgrid_NX: 1632
+  ESGgrid_NY: 1632
   ESGgrid_PAZI: 0.0
   ESGgrid_WIDE_HALO_WIDTH: 6
   DT_ATMOS: 36
-  LAYOUT_X: 48
-  LAYOUT_Y: 24
+  LAYOUT_X: 24
+  LAYOUT_Y: 50
   BLOCKSIZE: 32
   QUILTING:
     WRTCMP_write_groups: 1
@@ -660,8 +660,8 @@
     WRTCMP_cen_lat: -15.0
     WRTCMP_stdlat1: -15.0
     WRTCMP_stdlat2: -15.0
-    WRTCMP_nx: 1620
-    WRTCMP_ny: 1520
+    WRTCMP_nx: 1600
+    WRTCMP_ny: 1600
     WRTCMP_lon_lwr_left: 48.0
     WRTCMP_lat_lwr_left: -36.0
     WRTCMP_dx: 3000.0
